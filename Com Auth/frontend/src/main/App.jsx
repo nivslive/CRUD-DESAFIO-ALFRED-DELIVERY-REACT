@@ -12,7 +12,7 @@ import { AuthProvider } from './auth/auth';
 
 
 
-export default props => 
+const App = ()  => { return (
 <AuthProvider>
 <HashRouter>
 
@@ -23,4 +23,7 @@ export default props =>
 </HashRouter>
 
 
-</AuthProvider>
+</AuthProvider> ) }
+
+
+export default App;

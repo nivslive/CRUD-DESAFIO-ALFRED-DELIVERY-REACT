@@ -18,7 +18,7 @@ export const AuthProvider = ({children}) => {
             api.defaults.headers.Authorization = `Bearer ${storagedToken}`
         }
 
-    })
+    }, [] )
 
     async function Login(userData) {
         const response = await api.post('https://localhost:3003', userData)

@@ -1,6 +1,7 @@
 import React from 'react'
 import {useAuth} from '../../../main/auth/auth'
 
+/** Não funcionou. =( */
 const Login = () => {
     const { signed, Login} = useAuth();
     console.log(signed);
@@ -16,7 +17,7 @@ async function handleLogin() {
 
 return (
 <div>
-    <button className="btn float-right login_btn" onClick={handleLogin}>Login</button>
+    <input type="submit" className="btn float-right login_btn" onClick={handleLogin}/>
 </div>
 )}
 
