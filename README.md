@@ -1,7 +1,7 @@
 # CRUD-AFAZERES-DESAFIO-ALFRED-DELIVERY
 Teste realizado para Alfred Delivery, usando a Biblioteca React. 
 
-#PASSOS:
+# PASSOS:
 
 ATIVAR O BACKEND:
 1: cd backend
@@ -17,7 +17,7 @@ ATIVAR O FRONTEND:
 8: npm run start
 
 
-#Disclaimer:
+# Disclaimer:
 A ideia é dividir os serviços em portas diferentes. o CRUD em uma porta, a autenticação em outra, etc. 
 Até o momento acabei travando na tentativa de criar o auth, mas seguimos tentando. 
 Caso queira ver apenas o CRUD de afazeres funcionando, tem a versão sem a tentativa de autenticar o sistema aqui nesse repositório.
